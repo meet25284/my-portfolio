@@ -1,0 +1,29 @@
+#page1{
+    height: 100vh;
+    background-color: rgba(204, 243, 129, 1);
+}
+#color1{
+    width: 65%;
+    height: 100%;
+    background-color: rgba(72, 49, 212, 1);
+}
+#font{
+    font-weight: 900;
+    font-size: 45px;
+    color:white ;
+    height: 100px;
+    width: 300px;
+    padding-top: 30%;
+    padding-left: 40%;
+}
+#skill{
+    text-align: justify;
+    height: 100px;
+    width: 500px;
+    padding-left: 40%;
+    color: white;
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+    

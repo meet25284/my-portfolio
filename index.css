@@ -3,7 +3,7 @@
 }
 #page1{
     height: 100vh;
-    background-color: rgba(204, 243, 129, 1);
+    background-color: rgba(204, 243, 129, 1);    
 }
 #color1{
     width: 65%;
@@ -12,18 +12,19 @@
 }
 #font{
     position: relative;
-    top: 300px;
-    left: 180px;
+    top: 37%;
+    left: 20%;
     font-weight: 900;
     font-size: 45px;
     color:rgba(204, 243, 129, 1) ;
     width: 350px;
-    font-family: Bodoni MT;        
+    font-family: Bodoni MT; 
+           
 }
 #skill{
     position: relative;
-    top: 300px;
-    left: 180px;
+    top: 40%;
+    left: 20%;
     text-align: justify;
     width: 600px;
     color: white;
@@ -32,9 +33,10 @@
 }
 #photo{
     position: relative;
-    left: 900px;
-    top: 20px;
+    left: 90%;
+    top: 10%;
     width: 220px;
+
 }
 #photo img{
     border-radius: 20px;

@@ -17,7 +17,7 @@
     font-weight: 900;
     font-size: 45px;
     color:rgba(204, 243, 129, 1) ;
-    width: 350px;
+    width: 320px;
     font-family: Bodoni MT; 
            
 }
@@ -43,7 +43,7 @@
     height: 220px;
     width: 220px;
 }
-@media (max-width:600px) {
+@media (max-width:450px) {
     #color1{
         position: relative;
         height: 65%;
@@ -51,8 +51,11 @@
     }
     #font{
         position: relative;
-        top: 77%;
+        top: 75%;
         left: 0%;
+        width: 100%;
+        font-size: 100%;
+        font-size: 280%;
 
     }
     #skill{
@@ -66,7 +69,8 @@
     #photo{
         position: absolute;
         top: 10%;
-        left: 30%;
+        left: 20%;
+        margin: auto;
     }
 
 }

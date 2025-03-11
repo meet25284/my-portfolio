@@ -1,79 +1,62 @@
-*{
+* {
     margin: 0px;
 }
 #page1{
     height: 100vh;
-    background-color: rgba(204, 243, 129, 1);  
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
 }
 #color1{
-    width: 65%;
     height: 100%;
+    width: 70%;
     background-color: rgba(72, 49, 212, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#font{
-    position: relative;
-    top: 37%;
-    left: 20%;
+#color2{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(204, 243, 129, 1);
+}
+#title{
+    color: rgba(204, 243, 129, 1);
+    font-family: Bodoni MT;
     font-weight: 900;
     font-size: 45px;
-    color:rgba(204, 243, 129, 1) ;
-    width: 320px;
-    font-family: Bodoni MT; 
-           
+    width: 32%;
 }
 #skill{
-    position: relative;
-    top: 10%;
-    left: 20%;
     text-align: justify;
-    width: 600px;
+    width: 175%;
     color: white;
     font-size: 20px;
     font-family: Viner Hand ITC;
 }
-#photo{
+#image{
     position: relative;
-    left: 90%;
-    top: 20%;
+    left: 35%;
     width: 220px;
+    height: 220px;
 
 }
 #photo img{
-    border-radius: 20px;
-    height: 220px;
     width: 220px;
+    height: 220px;
+    border-radius: 20%;
 }
-@media (max-width:450px) {
+
+
+
+
+@media (max-width:500px){
+    #page1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
     #color1{
-        position: relative;
-        height: 65%;
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
-    #font{
-        position: relative;
-        top: 75%;
-        left: 0%;
-        width: 100%;
-        font-size: 100%;
-        font-size: 280%;
-
-    }
-    #skill{
-        position: relative;
-        top:80%;
-        left: 0%;
-        text-align: justify;
-        width: 100%;
-        color: rgba(72, 49, 212, 1);
-    }
-    #photo{
-        position: absolute;
-        top: 10%;
-        left: 20%;
-        margin: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }

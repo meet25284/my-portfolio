@@ -5,7 +5,6 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
 }
 #color1{
     height: 100%;

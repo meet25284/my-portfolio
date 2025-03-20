@@ -106,8 +106,9 @@
         font-size: 187%;
     }
     #skill p{
-        font-size: 99%
-        
+        font-size: 99%;
+        text-align: center;
+        word-spacing: 3px;
     }
     #skill {
         color: rgb(0, 0, 0);

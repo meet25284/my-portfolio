@@ -87,7 +87,7 @@
     }
     #color2{
         width: 100%;
-        height: 7%;
+        height: 10%;
         display: flex;
         justify-content: end;
         align-items: end;
@@ -95,11 +95,12 @@
     }
     #font{
         width: 100%;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
     }
     #title{
-        width: 53%;
+        width: 100%;
     }
     #title p{
         font-size: 187%;
@@ -119,7 +120,7 @@
         display: block;
         font-family: "Tektur", sans-serif;
         font-size: 20px;
-        margin-right: 5px;
+        margin-right: 8px;
 
     }
 

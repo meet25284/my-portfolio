@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Playwrite+IT+Moderna:wght@100..400&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Playwrite+IT+Moderna:wght@100..400&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Oswald:wght@200..700&family=Playwrite+IT+Moderna:wght@100..400&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+IT+Moderna:wght@100..400&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+IT+Moderna:wght@100..400&family=Quicksand:wght@300..700&family=Satisfy&family=Tektur:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
     margin: 0px;
 }
 
@@ -28,6 +29,10 @@
     background-color: rgba(204, 243, 129, 1);
 }
 
+#color2 p {
+    display: none;
+}
+
 #font {
     width: 60%;
     display: flex;
@@ -36,7 +41,7 @@
 
 #title {
     color: rgba(204, 243, 129, 1);
-    font-family:  "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 900;
     width: 46%;
 }
@@ -61,16 +66,20 @@
     height: 220px;
     border-radius: 20%;
 }
-#title p{
+
+#title p {
     font-size: 283%;
 }
-#skill p{
+
+#skill p {
     font-size: 130%;
 }
-#footer{
+
+#footer {
     display: none;
 }
-#page2{
+
+#page2 {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
@@ -78,45 +87,51 @@
     justify-content: center;
     align-items: center;
 }
-#title2{
+
+#title2 {
     width: 40%;
     position: relative;
     bottom: 23%;
     right: 40px;
-    
+
 }
-#title3{
+
+#title3 {
     width: 40%;
     position: relative;
     top: 22%;
     left: 40px;
 
 }
-#design{
+
+#design {
     color: rgba(72, 49, 212, 1);
     font-weight: 900;
     font-size: 250%;
     font-family: "Oswald", sans-serif;
 }
-#engineering{
+
+#engineering {
     color: rgba(72, 49, 212, 1);
     font-weight: 900;
     font-size: 250%;
     font-family: "Oswald", sans-serif;
 }
-#designingskill{
+
+#designingskill {
     font-size: 120%;
-    word-spacing: 3px;  
-    font-family: "Dancing Script", cursive;
+    word-spacing: 3px;
+    font-family: "Satisfy", cursive;
     font-weight: 500;
 
 
 }
-#engineeringskill{
+
+#engineeringskill {
     font-size: 120%;
     word-spacing: 3px;
-    font-family: "Dancing Script", cursive;
-    font-weight: 500; 
+    font-family: "Satisfy", cursive;
+    font-weight: 500;
 }
 
 
@@ -132,68 +147,78 @@
 
     #color1 {
         width: 100%;
-        height: 100%;
+        height: 55%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap-reverse;
-    }
-    #color2{
-        width: 100%;
-        height: 10%;
-        display: flex;
-        justify-content: end;
-        align-items: end;
 
     }
-    #font{
+
+    #skill p {
+        display: none;
+    }
+
+    #color2 {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #flexskill{
+        text-align: center;
+        padding-left: 8px;
+        padding-right: 8px;
+
+    }
+    #flexskill p {
+        display: contents;
+        font-size: 105%;
+        word-spacing: 3px;
+        color: rgb(0, 0, 0);
+        font-family: "Playwrite IT Moderna", cursive;
+
+    }
+
+    #font {
         width: 100%;
         margin-left: 8px;
         margin-right: 8px;
         text-align: center;
     }
-    #title{
+
+    #title {
         width: 100%;
     }
-    #title p{
+
+    #title p {
         font-size: 187%;
     }
-    #skill p{
-        font-size: 99%;
-        text-align: center;
-        word-spacing: 3px;
-    }
-    #skill {
-        color: rgb(0, 0, 0);
-    }
+
     #photo {
         position: relative;
         left: 0%;
     }
-    #footer{
-        display: block;
-        font-family: "Tektur", sans-serif;
-        font-size: 20px;
-        margin-right: 8px;
-
-    }
-    #page2{
+    #page2 {
         height: 100vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
-        
+
     }
-    #title2{
+
+    #title2 {
         width: 100%;
-        position: none;
+        position: relative;
         bottom: 0%;
         right: 0px;
         margin-left: 10px;
         margin-right: 10px;
 
     }
-    #title3{
+
+    #title3 {
         width: 100%;
         position: relative;
         top: 0%;
@@ -201,21 +226,28 @@
         margin-left: 10px;
         margin-right: 10px;
     }
-    #design{
-        text-align: center;
-    }
-    #engineering{
-        text-align: center;
 
-    }
-    #designingskill{
+    #design {
         text-align: center;
     }
-    #engineeringskill{
+
+    #engineering {
         text-align: center;
 
     }
 
+    #designingskill {
+        text-align: center;
+        font-size: 105%;
+    }
 
-   
+    #engineeringskill {
+        text-align: center;
+        font-size: 105%;
+
+
+    }
+
+
+
 }
